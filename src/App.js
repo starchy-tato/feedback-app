@@ -34,10 +34,8 @@ function App(){
             <Route exact path='/' element={
               <>
                 <FeedbackForm handleAdd={addFeedback} />
-                <FeedbackStats feedback={feedback} />
-                <FeedbackList
-                  handleDelete={deleteFeedback}
-                />
+                <FeedbackStats />
+                <FeedbackList handleDelete={deleteFeedback} />
               </>
             }>
             </Route>
